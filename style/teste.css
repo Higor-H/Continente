@@ -55,16 +55,33 @@ nav h2{
 
 nav{
     margin-left: 50px;
+    border: 2px solid;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 summary{
     width: 200px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 ul{
     margin-bottom: 15px;
+    margin-left: 20px;
 }
+
+
+
+summary{
+    list-style-type: '♣ ';
+}
+
+details[open] summary{
+    list-style-type: '♦ ';
+}
+
 
 /**/
 
