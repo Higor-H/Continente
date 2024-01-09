@@ -22,18 +22,54 @@ span{
 }
 
 img{
-    width: 35vw;
+    width: 30vw;
   
 }
 
 .img-txt{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artigo{
+    margin-bottom: 100px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+nav h2{
+    margin-bottom: 5px;
+}
+
+nav{
+    margin-left: 50px;
+}
+
+summary{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+ul{
+    margin-bottom: 15px;
 }
 
 /**/
 
+/*
 .float{
     float: right;
 }
+*/
