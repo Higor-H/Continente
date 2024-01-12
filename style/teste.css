@@ -6,12 +6,20 @@ body{
 
 h1{
     font-size: 50px;
+    margin-bottom: 10px;
     
 }
 
 h2{
     font-size: 40px;
 }
+
+
+
+h3{
+    font-size: 30px;
+}
+
 p{
     font-size: 20px;
     margin: 20px;
@@ -81,6 +89,52 @@ summary{
 details[open] summary{
     list-style-type: '♦ ';
 }
+
+
+
+
+.relacionados{
+    color: black;
+    display: block;
+    text-decoration: none;
+    color: currentColor;
+    text-decoration: none;
+}
+
+.relacionados img{
+    width: 20vw;
+}
+
+.relacionados h2{
+   font-size: 50px;
+   margin-bottom: 50px;
+}
+.relacionados a{
+    text-decoration: none;
+    color: black;
+ }
+
+.img-rel{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.cards-rel{
+    display: flex;
+    justify-content: center;
+    /* align-items: stretch;
+    gap: 2rem;
+    padding-bottom: 4rem; */
+}
+
 
 
 /**/
